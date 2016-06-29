@@ -1,11 +1,13 @@
 #### psrespwebimg
 ######42 picture
+```
 <picture>
   <source media="(min-width: 600px)" srcset="/images/1.jpg">  <!-- 600+-->
   <source media="(min-width: 300px)" srcset="/images/2.jpg, /images/2x.jpg 2x">  <!-- 300+-->
   <!-- fallback-->
   <img src="/..jpg" srcset="/images/...jpg 2x" alt="">
 </picture>
+```
 ######43
 ######45 picturefill (a github project)
 ######48 srcset
